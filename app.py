@@ -32,9 +32,9 @@ load_css()
 # ── Load Models ───────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_models():
-    model  = pickle.load(open('models/model (2).pkl',         'rb'))
-    scaler = pickle.load(open('models/scaler (2).pkl',        'rb'))
-    le     = pickle.load(open('models/label_encoder.pkl', 'rb'))
+    model  = pickle.load(open('Models/model (2).pkl',         'rb'))
+    scaler = pickle.load(open('Models/scaler (2).pkl',        'rb'))
+    le     = pickle.load(open('Models/label_encoder.pkl', 'rb'))
     return model, scaler, le
 
 model, scaler, le = load_models()
