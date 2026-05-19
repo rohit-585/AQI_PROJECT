@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+html, body, [class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.result-card {
+    border-radius: 20px;
+    padding: 28px 32px;
+    margin: 12px 0;
+    border: 2px solid;
+}
+
+
+.precaution-card {
+    border-radius: 14px;
+    padding: 18px 22px;
+    margin: 8px 0;
+    background: rgba(255, 255, 255, 0.04);
+    border-left: 4px solid;
+}
+
+
+.do-card {
+    background: #00b89415;
+    border-left: 3px solid #00b894;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin: 6px 0;
+    color: #ddd;
+    font-size: 0.88rem;
+}
+
+
+.dont-card {
+    background: #d6303115;
+    border-left: 3px solid #d63031;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin: 6px 0;
+    color: #ddd;
+    font-size: 0.88rem;
+}
+
+
+.metric-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 14px;
+    text-align: center;
+    margin: 4px 0;
+}
+
+
+.mask-box {
+    border-radius: 12px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid;
+}
+
+
+.confidence-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 14px;
+    text-align: center;
+    margin: 4px 0;
+}
+
