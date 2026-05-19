@@ -3,6 +3,14 @@ import pickle
 import pandas as pd
 import numpy as np
 import os
+import gdown
+
+
+model_path = "Models/model (2).pkl"
+
+if not os.path.exists(model_path):
+    url = "https://drive.google.com/uc?id=YOUR_FILE_ID"
+    gdown.download(url, model_path, quiet=False)
 
 # ── Fix working directory ─────────────────────────────────────────────────────
 os.chdir(os.path.dirname(os.path.abspath(__file__)))

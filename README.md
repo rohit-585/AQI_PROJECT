@@ -35,12 +35,13 @@ AQI_PROJECT/
 │   └── city_day.csv           # Raw AQI dataset (29,531 records, 16 features)
 │
 ├── models/
-│   ├── model.pkl              # Best trained ML model
-│   ├── scaler.pkl             # StandardScaler for input normalization
+│   ├── imputer.pkl              # Best trained ML model
+│   ├── model (2).pkl             
 │   └── label_encoder.pkl      # LabelEncoder for AQI category decoding
+        scaler(2).pkl
 │
-├── notebooks/
-│   └── AQI_Analysis.ipynb     # Jupyter Notebook (EDA + Model Training)
+├── 
+│   
 │
 ├── app.py                     # Streamlit web application
 └── README.md                  # Project documentation
